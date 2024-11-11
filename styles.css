@@ -116,7 +116,7 @@ a {
 
 .about-us-text p {
   margin: 0;
-  text-align: justify;
+  text-align: left;
   font-size: 16px;
 }
 
@@ -145,6 +145,10 @@ img {
     text-align: center;
     order: 1;
     flex-direction: column;
+  }
+  .second-block {
+    text-align: left;
+    padding: 0 10px;
   }
 }
 
@@ -494,6 +498,8 @@ h1 {
 @media (max-width: 768px) {
   .review-wrapper {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .review-card {
     padding: 5px;
